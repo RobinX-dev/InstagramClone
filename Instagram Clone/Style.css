@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+
+
+.header{
+    /* border-bottom: 1px solid black; */
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    height: 80px;
+    width: 160px;
+    position: relative;
+    
+}
+#icon{
+    float: right;
+}
+.stories{
+    padding: 10px;
+    height: 80px;
+    display: grid;
+    grid-auto-columns: calc(100px - 4rem);
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    gap: 70px;
+    /* border-bottom: 1px solid black; */
+}
+.stories::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+}
+.pic{
+    border-radius: 50%;
+    border: 5px solid rgb(255, 64, 137);
+}
+.posts{
+    width: 100%;
+    overflow-x: scroll;
+    gap: 1px;
+}
+.id{
+    padding: 5px 0 0px 5px;
+    height: auto;
+    
+}
+.song{
+    padding: 0px 0 0px 5px;
+    height: auto;
+    
+}
+.posts::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    width: 100%;
+    
+}
+.postedby{
+    height: 50px;
+    padding: 5px 0 0 7px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.picture{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 97, 166);
+}
+.icons{
+    padding: 20px 20px 0px 3px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.fa-regular{
+    width: 30px;
+}
+.save{
+    float: right;
+}
+.footer{
+    position:fixed;
+    width: 100%;
+    padding: 10px;
+    bottom: 0pc;
+    background-color: white;
+    border-top: 1px solid rgb(197, 197, 197);
+}
